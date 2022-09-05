@@ -25,9 +25,9 @@ jobs:
           role-duration-seconds: 1200
           role-session-name: github-action-lmda-mythic-enum-scanner
       - name: "zip it"
-        run: "zip -r9 lambda.zip ."
+        run: "cd dist && zip lambda.zip ./index.js"
       - name: "AWS Deploy"
-        run: "aws lambda update-function-code --function-name lmda-mythic-enum-scanner --zip-file fileb://lambda.zip"
+        run: "aws lambda update-function-code --function-name lmda-mythic-enum-scanner --zip-file fileb://dist/lambda.zip"
       - name: "Send Notification"
         uses: dungeoneer-io/sc-discord-notification-action@v1.3
         with:
