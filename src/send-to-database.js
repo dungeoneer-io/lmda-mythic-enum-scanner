@@ -1,4 +1,4 @@
-const { getDb } = require('./utils/dio-mongo');
+const { getDb } = require('@dungeoneer-io/nodejs-utils');
 const {
     BEE_TYPES,
     COLLECTIONS,
@@ -26,7 +26,7 @@ const upsertAffixEntitiesFromSnapshot = async (mythicSnapshot) => {
     });
     const results = await batch.execute();
 
-    if (results.result.nUpserted > 0) {
+    if (results.result && results.result.nUpserted > 0) {
         const upsertedIds = results.result.upserted.map(({ _id }) => _id);
         await insertBlizzardEntityEventArray(upsertedIds, BEE_TYPES.AFFIX);
     }
@@ -53,7 +53,7 @@ const upsertDungeonEntitiesFromSnapshot = async (mythicSnapshot) => {
     });
     const results2 = await batch2.execute();
 
-    if (results2.result.nUpserted > 0) {
+    if (results2.result && results2.result.nUpserted > 0) {
         const upsertedIds = results2.result.upserted.map(({ _id }) => _id);
         await insertBlizzardEntityEventArray(upsertedIds, BEE_TYPES.DUNGEON);
     }
@@ -78,7 +78,7 @@ const upsertPeriodEntityFromSnapshot = async (mythicSnapshot) => {
         { upsert: true }
     );
 
-    if (result3.result.upserted) {
+    if (result3.result && result3.result.upserted) {
         insertBlizzardEntityEventArray([mythicSnapshot.period.id], BEE_TYPES.PERIOD);
     }
 };

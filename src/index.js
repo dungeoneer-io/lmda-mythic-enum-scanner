@@ -1,8 +1,8 @@
 const {
+    connectToBlizzard,
+    initDb,
     lambdaTry200Catch500
-} = require('./utils/dio-util');
-const { connectToBlizzard } = require('./utils/dio-blizz');
-const { initDb } = require('./utils/dio-mongo');
+} = require('@dungeoneer-io/nodejs-utils');
 const getSnapshot = require('./get-snapshot');
 const sendToDatabase = require('./send-to-database');
 

@@ -1,7 +1,11 @@
 const { ObjectId } = require('mongodb');
-const { getMythicAffix, getMythicData } = require('./utils/dio-blizz');
-const queueUntilResolved = require('./utils/queue-until-resolved');
-const { getDb } = require('./utils/dio-mongo');
+const {
+    getMythicAffix,
+    getMythicData,
+    queueUntilResolved,
+    getDb
+} = require('@dungeoneer-io/nodejs-utils');
+
 const {
     mapApiAffixToAffix,
     mapApiDungeonToPeriodDungeon,
