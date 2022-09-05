@@ -1,0 +1,116 @@
+[
+    {
+        "_links": {
+          "self": {
+            "href": "https://us.api.blizzard.com/data/wow/mythic-keystone/dungeon/169?namespace=dynamic-us"
+          }
+        },
+        "id": 169,
+        "name": "Iron Docks",
+        "map": {
+          "name": "Iron Docks",
+          "id": 1195
+        },
+        "zone": {
+          "slug": "iron-docks"
+        },
+        "dungeon": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/journal-instance/558?namespace=static-9.2.7_44981-us"
+          },
+          "name": "Iron Docks",
+          "id": 558
+        },
+        "keystone_upgrades": [
+          {
+            "upgrade_level": 1,
+            "qualifying_duration": 1800000
+          },
+          {
+            "upgrade_level": 2,
+            "qualifying_duration": 1440000
+          },
+          {
+            "upgrade_level": 3,
+            "qualifying_duration": 1080000
+          }
+        ],
+        "is_tracked": true
+      },
+      {
+        "_links": {
+          "self": {
+            "href": "https://us.api.blizzard.com/data/wow/mythic-keystone/dungeon/199?namespace=dynamic-us"
+          }
+        },
+        "id": 199,
+        "name": "Black Rook Hold",
+        "map": {
+          "name": "Black Rook Hold",
+          "id": 1501
+        },
+        "zone": {
+          "slug": "black-rook-hold"
+        },
+        "dungeon": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/journal-instance/740?namespace=static-9.2.7_44981-us"
+          },
+          "name": "Black Rook Hold",
+          "id": 740
+        },
+        "keystone_upgrades": [
+          {
+            "upgrade_level": 1,
+            "qualifying_duration": 2340000
+          },
+          {
+            "upgrade_level": 2,
+            "qualifying_duration": 1872000
+          },
+          {
+            "upgrade_level": 3,
+            "qualifying_duration": 1404000
+          }
+        ],
+        "is_tracked": false
+      },
+      {
+        "_links": {
+          "self": {
+            "href": "https://us.api.blizzard.com/data/wow/mythic-keystone/dungeon/207?namespace=dynamic-us"
+          }
+        },
+        "id": 207,
+        "name": "Vault of the Wardens",
+        "map": {
+          "name": "Vault of the Wardens",
+          "id": 1493
+        },
+        "zone": {
+          "slug": "vault-of-the-wardens"
+        },
+        "dungeon": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/journal-instance/707?namespace=static-9.2.7_44981-us"
+          },
+          "name": "Vault of the Wardens",
+          "id": 707
+        },
+        "keystone_upgrades": [
+          {
+            "upgrade_level": 1,
+            "qualifying_duration": 1980000
+          },
+          {
+            "upgrade_level": 2,
+            "qualifying_duration": 1584000
+          },
+          {
+            "upgrade_level": 3,
+            "qualifying_duration": 1188000
+          }
+        ],
+        "is_tracked": false
+      }
+]

@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "blizzard.js": "^4.2.0",
+    "cli-progress": "^3.8.2",
+    "mongodb": "^3.6.2",
+    "statman-stopwatch": "^2.11.1"
+  },
+  "name": "lmda-mythic-enum-scanner",
+  "version": "1.0.0",
+  "scripts": {
+    "local": "node ./local-run.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Obtains snapshots, harvests unique entities, and generates entity events for: MYTHIC AFFIX, PERIOD, DUNGEON",
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "jest": "^29.0.1"
+  }
+}
+

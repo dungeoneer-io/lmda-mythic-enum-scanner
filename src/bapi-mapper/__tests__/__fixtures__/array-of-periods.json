@@ -1,0 +1,22 @@
+[
+    {
+        "_links": {
+          "self": {
+            "href": "https://us.api.blizzard.com/data/wow/mythic-keystone/period/869?namespace=dynamic-us"
+          }
+        },
+        "id": 869,
+        "start_timestamp": 1661266800000,
+        "end_timestamp": 1661871599000
+      },
+      {
+        "_links": {
+          "self": {
+            "href": "https://us.api.blizzard.com/data/wow/mythic-keystone/period/870?namespace=dynamic-us"
+          }
+        },
+        "id": 870,
+        "start_timestamp": 1661871600000,
+        "end_timestamp": 1662476399000
+      }
+]

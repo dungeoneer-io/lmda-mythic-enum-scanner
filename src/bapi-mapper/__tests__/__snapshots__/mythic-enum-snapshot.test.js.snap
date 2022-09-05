@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transformers mapApiAffixToAffix 1`] = `
+[
+  {
+    "id": 1,
+    "name": "Overflowing",
+  },
+  {
+    "id": 2,
+    "name": "Skittish",
+  },
+  {
+    "id": 3,
+    "name": "Volcanic",
+  },
+  {
+    "id": 4,
+    "name": "Necrotic",
+  },
+  {
+    "id": 5,
+    "name": "Teeming",
+  },
+  {
+    "id": 6,
+    "name": "Raging",
+  },
+  {
+    "id": 7,
+    "name": "Bolstering",
+  },
+  {
+    "id": 8,
+    "name": "Sanguine",
+  },
+  {
+    "id": 9,
+    "name": "Tyrannical",
+  },
+  {
+    "id": 10,
+    "name": "Fortified",
+  },
+  {
+    "id": 11,
+    "name": "Bursting",
+  },
+  {
+    "id": 12,
+    "name": "Grievous",
+  },
+  {
+    "id": 13,
+    "name": "Explosive",
+  },
+  {
+    "id": 14,
+    "name": "Quaking",
+  },
+  {
+    "id": 16,
+    "name": "Infested",
+  },
+  {
+    "id": 117,
+    "name": "Reaping",
+  },
+  {
+    "id": 119,
+    "name": "Beguiling",
+  },
+  {
+    "id": 120,
+    "name": "Awakened",
+  },
+  {
+    "id": 128,
+    "name": "Tormented",
+  },
+  {
+    "id": 121,
+    "name": "Prideful",
+  },
+  {
+    "id": 122,
+    "name": "Inspiring",
+  },
+  {
+    "id": 123,
+    "name": "Spiteful",
+  },
+  {
+    "id": 124,
+    "name": "Storming",
+  },
+  {
+    "id": 130,
+    "name": "Encrypted",
+  },
+  {
+    "id": 129,
+    "name": "Infernal",
+  },
+  {
+    "id": 131,
+    "name": "Shrouded",
+  },
+]
+`;
+
+exports[`transformers mapApiDungeonToPeriodDungeon 1`] = `
+[
+  {
+    "dungeon": 558,
+    "id": 169,
+    "map": 1195,
+    "name": "Iron Docks",
+    "upgrades": [
+      1800000,
+      1440000,
+      1080000,
+    ],
+    "zone": "iron-docks",
+  },
+  {
+    "dungeon": 740,
+    "id": 199,
+    "map": 1501,
+    "name": "Black Rook Hold",
+    "upgrades": [
+      2340000,
+      1872000,
+      1404000,
+    ],
+    "zone": "black-rook-hold",
+  },
+  {
+    "dungeon": 707,
+    "id": 207,
+    "map": 1493,
+    "name": "Vault of the Wardens",
+    "upgrades": [
+      1980000,
+      1584000,
+      1188000,
+    ],
+    "zone": "vault-of-the-wardens",
+  },
+]
+`;
+
+exports[`transformers mapApiPeriodToPeriodWithoutDungeons 1`] = `
+[
+  {
+    "end_timestamp": 1661871599000,
+    "id": 869,
+    "start_timestamp": 1661266800000,
+  },
+  {
+    "end_timestamp": 1662476399000,
+    "id": 870,
+    "start_timestamp": 1661871600000,
+  },
+]
+`;
