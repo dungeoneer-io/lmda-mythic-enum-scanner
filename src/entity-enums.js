@@ -1,7 +1,6 @@
 const COLLECTIONS = {
     SNAPSHOTS: 'snapshots',
     BLIZZARDENTITYEVENTS: 'BlizzEntityEvents',
-    ZEPHYR_LOGS: 'ZephyrEvents',
     AFFIXES: 'MythicAffixes',
     DUNGEONS: 'MythicDungeons',
     PERIODS: 'MythicPeriods'
