@@ -42,7 +42,7 @@ Obtains snapshots, harvests unique entities, and generates entity events for: My
 ### Resource Usage
 Lambda Function Using:
 - 128MB Memory (~100MB used)
-- ~~Billable Duration over 83 Crealms: 9111 ms~~
+- Billable Duration over snapshot: ~4260ms
 
 ### Plugging into the Cloud
 - Deploy to github to leverage GitHub Actions written in .github\workflows
