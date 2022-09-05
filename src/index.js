@@ -1,10 +1,10 @@
 const {
     lambdaTry200Catch500
-} = require('./src/utils/dio-util');
-const { connectToBlizzard } = require('./src/utils/dio-blizz');
-const { initDb } = require('./src/utils/dio-mongo');
-const getSnapshot = require('./src/get-snapshot');
-const sendToDatabase = require('./src/send-to-database');
+} = require('./utils/dio-util');
+const { connectToBlizzard } = require('./utils/dio-blizz');
+const { initDb } = require('./utils/dio-mongo');
+const getSnapshot = require('./get-snapshot');
+const sendToDatabase = require('./send-to-database');
 
 const harvestAndUpsertMythicEnumData = async (lambdaEvent) => {
     await initDb();
