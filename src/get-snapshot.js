@@ -44,10 +44,10 @@ const fetchSnapshotById = async (snapshotId) => {
         .db(DATABASES.DEFAULT)
         .collection(COLLECTIONS.SNAPSHOTS);
 
-    debugLog(`retrieving snapshot id ${ snapshotId }`);
+    console.log(`retrieving snapshot id ${ snapshotId }`);
     const snapshot = await snapshotCollection.findOne({ _id: new ObjectId(snapshotId) });
 
-    return snapshot;
+    return snapshot.data;
 };
 
 const procureLiveMythicEnumSnapshot = async () => {
