@@ -78,8 +78,8 @@ const upsertPeriodEntityFromSnapshot = async (mythicSnapshot) => {
         { upsert: true }
     );
 
-    if (result3.result && result3.result.upserted) {
-        insertBlizzardEntityEventArray([mythicSnapshot.period.id], BEE_TYPES.PERIOD);
+    if (result3 && result3.upsertedCount) {
+        await insertBlizzardEntityEventArray([mythicSnapshot.period.id], BEE_TYPES.PERIOD);
     }
 };
 
@@ -88,7 +88,6 @@ const insertBlizzardEntityEventArray = async (idArray, type, event = 'ADDED') =>
     const eventColl = await getDb()
         .db(DATABASES.DEFAULT)
         .collection(COLLECTIONS.BLIZZARDENTITYEVENTS);
-
     await eventColl.insertMany(
         idArray.map((o) => ({
             stamp: Date.now(),
