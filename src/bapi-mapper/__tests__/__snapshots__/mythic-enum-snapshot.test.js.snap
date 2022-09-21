@@ -116,6 +116,7 @@ exports[`transformers mapApiDungeonToPeriodDungeon 1`] = `
     "id": 169,
     "map": 1195,
     "name": "Iron Docks",
+    "tracked": true,
     "upgrades": [
       1800000,
       1440000,
@@ -128,6 +129,7 @@ exports[`transformers mapApiDungeonToPeriodDungeon 1`] = `
     "id": 199,
     "map": 1501,
     "name": "Black Rook Hold",
+    "tracked": false,
     "upgrades": [
       2340000,
       1872000,
@@ -140,6 +142,7 @@ exports[`transformers mapApiDungeonToPeriodDungeon 1`] = `
     "id": 207,
     "map": 1493,
     "name": "Vault of the Wardens",
+    "tracked": false,
     "upgrades": [
       1980000,
       1584000,
